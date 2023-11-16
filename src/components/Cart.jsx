@@ -37,7 +37,7 @@ const Cart = () => {
   ));
 
   return (
-    <div className="max-w-screen-xl mx-auto p-6 ">
+    <div className="max-w-screen-xl mx-auto p-6 h-screen">
       <h2 className="text-2xl font-bold py-6 text-center">Cart</h2>
       <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 ">{cards}</div>
     </div>

@@ -6,8 +6,8 @@ const Navbar = () => {
   const cartProducts = useSelector((state) => state.cart);
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="bg-white">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 bg-gray-800 text-white">
+    <nav className="bg-gray-800">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4  text-white">
         <Link to="/" className="text-xl font-medium">
           Redux Shopping Cart
         </Link>
